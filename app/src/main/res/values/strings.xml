@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Scientific Calculator</string>
+
+    <string name="deg">DEG</string>
+    <string name="rad">RAD</string>
+    <string name="history">History</string>
+    <string name="history_empty">No calculations yet. Your results will show up here.</string>
+    <string name="clear_history">Clear history?</string>
+    <string name="clear_history_message">This removes every saved calculation from this device.</string>
+    <string name="clear">Clear</string>
+    <string name="cancel">Cancel</string>
+    <string name="close">Close</string>
+    <string name="error">Error</string>
+    <string name="result_is">Result %1$s</string>
+    <string name="memory_value">M %1$s</string>
+
+    <string name="cd_sin">sine</string>
+    <string name="cd_cos">cosine</string>
+    <string name="cd_tan">tangent</string>
+    <string name="cd_ln">natural logarithm</string>
+    <string name="cd_log">base ten logarithm</string>
+    <string name="cd_sqrt">square root</string>
+    <string name="cd_inv">inverse functions</string>
+    <string name="cd_backspace">backspace</string>
+    <string name="cd_clear">clear all</string>
+    <string name="cd_equals">equals</string>
+    <string name="cd_angle">angle unit</string>
+</resources>

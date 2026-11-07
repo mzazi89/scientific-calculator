@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="bg">#0B0F14</color>
+    <color name="surface">#141A21</color>
+
+    <color name="key_num">#1A222B</color>
+    <color name="key_func">#1F2831</color>
+    <color name="key_op">#23303B</color>
+    <color name="key_accent_start">#4FD1C5</color>
+    <color name="key_accent_end">#38BDF8</color>
+    <color name="key_danger">#2A1D22</color>
+
+    <color name="accent">#4FD1C5</color>
+    <color name="accent_soft">#9FE3DB</color>
+    <color name="danger">#F87171</color>
+
+    <color name="text_primary">#F1F5F9</color>
+    <color name="text_secondary">#A9BAC6</color>
+    <color name="text_muted">#5E7183</color>
+    <color name="text_on_accent">#04171A</color>
+
+    <color name="ripple">#334FD1C5</color>
+    <color name="ripple_dark">#33000000</color>
+
+    <color name="ic_launcher_background">#0B0F14</color>
+</resources>

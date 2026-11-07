@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.ScientificCalculator" parent="Theme.AppCompat.NoActionBar">
+        <item name="android:windowBackground">@color/bg</item>
+        <item name="android:statusBarColor">@color/bg</item>
+        <item name="android:navigationBarColor">@color/bg</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="android:textColorPrimary">@color/text_primary</item>
+        <item name="android:textColorSecondary">@color/text_secondary</item>
+        <item name="colorAccent">@color/accent</item>
+        <item name="android:colorAccent">@color/accent</item>
+    </style>
+
+    <style name="Chip">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">32dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:paddingStart">14dp</item>
+        <item name="android:paddingEnd">14dp</item>
+        <item name="android:background">@drawable/chip_bg</item>
+        <item name="android:textColor">@color/text_secondary</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:letterSpacing">0.08</item>
+        <item name="android:clickable">true</item>
+        <item name="android:focusable">true</item>
+        <item name="android:includeFontPadding">false</item>
+    </style>
+
+    <style name="Key">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">0dp</item>
+        <item name="android:layout_columnWeight">1</item>
+        <item name="android:layout_rowWeight">1</item>
+        <item name="android:layout_margin">3dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">@drawable/key_num</item>
+        <item name="android:textColor">@color/text_primary</item>
+        <item name="android:textSize">19sp</item>
+        <item name="android:autoSizeTextType">uniform</item>
+        <item name="android:autoSizeMinTextSize">10sp</item>
+        <item name="android:autoSizeMaxTextSize">21sp</item>
+        <item name="android:autoSizeStepGranularity">1sp</item>
+        <item name="android:clickable">true</item>
+        <item name="android:focusable">true</item>
+        <item name="android:includeFontPadding">false</item>
+    </style>
+
+    <style name="Key.Function">
+        <item name="android:background">@drawable/key_func</item>
+        <item name="android:textColor">@color/text_secondary</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:autoSizeMaxTextSize">17sp</item>
+    </style>
+
+    <style name="Key.Operator">
+        <item name="android:background">@drawable/key_op</item>
+        <item name="android:textColor">@color/accent</item>
+        <item name="android:textSize">22sp</item>
+        <item name="android:autoSizeMaxTextSize">24sp</item>
+    </style>
+
+    <style name="Key.Danger">
+        <item name="android:background">@drawable/key_danger</item>
+        <item name="android:textColor">@color/danger</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="Key.Equals">
+        <item name="android:background">@drawable/key_equals</item>
+        <item name="android:textColor">@color/text_on_accent</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:autoSizeMaxTextSize">26sp</item>
+    </style>
+
+    <style name="MemoryKey">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">@drawable/memory_key_bg</item>
+        <item name="android:textColor">@color/text_muted</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:letterSpacing">0.06</item>
+        <item name="android:clickable">true</item>
+        <item name="android:focusable">true</item>
+        <item name="android:includeFontPadding">false</item>
+    </style>
+</resources>
