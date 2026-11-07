@@ -31,9 +31,13 @@ sin(30)          →  0.5          (degrees)
 
 ## Install
 
-Download the latest `app-release.apk` from
-[Releases](https://github.com/mzazi89/scientific-calculator/releases) and open it on your
-phone (allow "install from unknown sources" when prompted).
+Go to [Releases](https://github.com/mzazi89/scientific-calculator/releases/latest) and
+download **`ScientificCalculator-v1.0.1.apk`** — a single ~623 KB file, no unzipping needed.
+Open it on your phone and allow "install from unknown sources" when prompted.
+
+> Use the APK attached to a **release**, not the file under a workflow run's *Artifacts*
+> section: artifacts are ZIP archives, and pairing them with the debug build makes
+> installer apps treat the download as a multi-APK bundle.
 
 Requires Android 8.0 (API 26) or newer.
 
